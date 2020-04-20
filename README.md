@@ -1,6 +1,6 @@
 # Tezos_Democracy
 Simulation d'un système démocratique* avec un smart-contract écrit en PascaLigo. Le but est de simuler des votes, et le peuple est représenté par les différentes adresses. 
-*Le terme démocratie, désigne un régime politique dans lequel tous les citoyens participent aux décisions politiques au moins par le vote.
+*Le terme démocratie, désigne un régime politique dans lequel tous les citoyens participent aux décisions politiques au moins par le vote ^^.
 
 ## Objectifs :
 + 2 votes  possible ("yes"  or "no" )
