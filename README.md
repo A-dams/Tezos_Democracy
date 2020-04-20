@@ -50,7 +50,7 @@ Définir l'état du storage initial et produire le tuple en michelson. Adresse �
 ```
 ligo compile-storage democracyContract.ligo main 'record admin = ("tz1KqTpEZ7Yob7QbPE4Hy4Wo8fHG8LhKxZSx": address); paused = False; votes = (map[] : map(address, bool)); end'
 ```
-Se déplacer dans le dossier tezos.
+Se déplacer dans le dossier tezos, et deployer le contrat
 ```
 tezos-client originate contract voteContract voting from bootstrap2  running ./democracyContract.tz --init '(Pair (Pair "tz1KqTpEZ7Yob7QbPE4Hy4Wo8fHG8LhKxZSx" False) {})' --burn-cap 4.178 &
 ```
