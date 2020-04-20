@@ -68,3 +68,4 @@ Pour les tests unitaires, lancez la commande :
 pytest testDemocracyContract.py
 ```
 
+Pour plus de détail sur la configuration de la sandbox : https://tezos.gitlab.io/user/sandbox.html
