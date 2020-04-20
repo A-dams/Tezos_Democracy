@@ -2,8 +2,8 @@ from unittest import TestCase
 from os.path import dirname, join
 from pytezos import ContractInterface, MichelsonRuntimeError
 
-admin       = "tz1TGu6TN5GSez2ndXXeDX6LgUDvLzPLqgYV"
-non_admin   = "tz1iWiN1hqFHEJEGW4gunUW6o2t1SC8sJoKT"
+admin = "tz1TGu6TN5GSez2ndXXeDX6LgUDvLzPLqgYV"
+non_admin = "tz1iWiN1hqFHEJEGW4gunUW6o2t1SC8sJoKT"
 wallet1 = "tz1ddb9NMYHZi5UzPdzTZMYQQZoMub195zgv"
 wallet2 = "tz1b7tUupMgCNw2cCLpKTkSD1NZzB5TkP2sv"
 wallet3 = "tz1faswCTDciRzE4oJ9jn2Vm2dvjeyA9fUzU"
