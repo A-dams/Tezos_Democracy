@@ -37,7 +37,7 @@ tezos-client rpc get /chains/main/blocks/head/metadata
 ```
 tezos-activate-alpha
 ```
-Adresses pré-configurées
+Pour voir vos adresses pré-configurées
 ```
 tezos-client list known addresses
 ```
