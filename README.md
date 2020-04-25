@@ -63,7 +63,7 @@ ligo compile-parameter democracyContract.ligo main 'Vote (Vote(record vote = Fal
 ligo compile-parameter democracyContract.ligo main 'Reset(0)'
 ```
 ## Tests unitaires
-Pour les tests unitaires, il faut que le smart-contract compilé en .tz soit dans le même dossier que le fichier de test .py
+Pour les tests unitaires, il faut que le smart-contract compilé en .tz soit dans le même dossier que le fichier de test en .py
 
 Lancez la commande : 
 ```
