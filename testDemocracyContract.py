@@ -28,6 +28,21 @@ class pyTestContract(TestCase):
                 source = admin
             )
 
+
+#Vérifie le vote
+    def test_vote(self):
+        result = self.votingContract.vote(True).result(
+            storage = {
+            "votes": { non_admin: True },
+            #"paused": False,
+            "paused": True,
+            "admin": admin
+            },
+            source = admin
+        )
+
+
+
 #Vérifie le double vote
     def test_vote_twice(self):
         with self.assertRaises(MichelsonRuntimeError):
@@ -39,6 +54,7 @@ class pyTestContract(TestCase):
                 },
                 source = non_admin
             )
+
 #Vérifie la pause
     def test_vote_paused(self):
         with self.assertRaises(MichelsonRuntimeError):
